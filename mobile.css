@@ -18,7 +18,8 @@ h1 {
 
 header {
   background-image: url();
-  height: 900px;
+  height: 600px;
+  margin-top:300px;
 }
 
 nav {
@@ -73,12 +74,16 @@ nav li {
   margin-bottom: 50px;
 }
 
+.shop h3{
+    font-size:20px;
+}
 .shop p {
-  font-size: 20px;
+  font-size: 18px;
   background-color: #ffffff;
   padding: 20px;
   height: 300px;
   border-radius: 30px;
+  color:#000000;
 }
 
 .shop img {
@@ -166,8 +171,8 @@ padding:30px;
 }
 
 .access {
-  background: #ffffdd;
-  color: #663300;
+  background: #00a29a;
+  color: #ffffff;
   padding: 30px;
   height: 400px;
 }
@@ -191,7 +196,7 @@ ul {
 footer {
   text-align: center;
   color: #ffffff;
-  background: #663300;
+  background: #08298a;
 }
 
 @media (max-width: 599px) {
@@ -206,7 +211,7 @@ footer {
 }
 
 .gallery {
-  background-color:#003377;
+  background-color:#1d2088;
   color:#ffffff;
  padding:30px;
 }
@@ -234,4 +239,5 @@ height: 250px
     width 250px;
     height: 250px;
 }
+
 
