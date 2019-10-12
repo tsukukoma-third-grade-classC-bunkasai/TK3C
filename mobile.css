@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 nav ul {
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 0px;
   text-align: center;
 }
@@ -68,7 +68,7 @@ nav div{
   display:inline-block;
   border: 1px #ffffff;
 height: 100px;
-    width:100%;
+    width:20%;
     float:left;
     text-align:center;
 }
