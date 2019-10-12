@@ -28,6 +28,14 @@ p{
     font-size:25px;
 }
 
+th{
+  font-size:25px;
+}
+
+td{
+  font-size:20px;
+}
+
 header {
   background-image: url();
   height: 600px;
