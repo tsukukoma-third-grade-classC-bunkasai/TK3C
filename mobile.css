@@ -10,10 +10,10 @@ h1 {
   font-size: 100px;
  font-family:"游ゴシック体";
   text-align: center;
-  background-image: url();
-  height: 300px;
+  background-image: url(https://lh3.googleusercontent.com/cQMRmHXRoau8ueahaziajXw_ZWDw4tRDussQPmKsxLeukLoFxfyY0LCdw2P2fxtt6SQe5xzDPNAf8cUMGT_hIwY3T4uyiKn3EE9yrrhSD1FDutw8mfW6viix1aILXgE9Ad1qqmrP=w2030-h1352-no);
+  height:500px;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position:  center;
 }
 
 h2{
@@ -35,19 +35,16 @@ th {
 td{
    font-size: 30px;
 }
-header {
-  background-image: url();
-  height: 600px;
-  margin-top:300px;
-}
+
 
 header h1{
     font-family:cursive ;
+    color:white
 }
 
 nav {
 
-  margin-top: 10px;
+  margin-top: ;
   padding-bottom: px;
    border-top: solid 5px #000000;
     border-bottom: solid 5px #000000;
@@ -105,8 +102,8 @@ height: 40px;
     background-color:black;
 }
 .shop {
-  background-color: #a901db;
-  color: #0101df;
+  background-color: #191970;
+  color: #1e90ff;
   padding: 30px;
 }
 
@@ -138,7 +135,7 @@ height: 40px;
   padding: 20px;
   border-radius: 30px;
   color:#000000;
-　padding-bottom:100px;
+
 }
 
 .shop img {
@@ -148,7 +145,7 @@ height: 40px;
 .photo {
 padding:40px;
  background-color:#000000;
-padding-bottom:13000px;
+padding-bottom:10000px;
 }
 
 .photo p {
@@ -170,16 +167,15 @@ padding-bottom:13000px;
   transform: rotate(0);
 }
 
-.cast div{
-    size:1000px;
-}
+
 
 .price{
     padding:30px;
+    background-color:#fff;
 }
 
 .price h2 {
-  color: #000000;
+  color: #333333;
   border-left: 10px solid #000000;
 }
 
@@ -190,23 +186,27 @@ padding-bottom:13000px;
 }
 
 .price td {
-  border: 1px solid #000000;
+  border: 1px solid #333333;
   padding: 10px;
+    
 }
 
 .price th {
   border: 1px solid #000000;
   padding: 10px;
   text-align: left;
-  background: #ffcc11;
+  background: lightblue;
+    color:#333;
 }
 
 .second th {
-  background: #3dc;
+  background: lightgreen;
+    color:#333;
 }
 
 .thrid  th{
-  background-color: #5858fa
+  background-color: lightcoral;
+    color:#333;
 }
 
 .access {
@@ -222,10 +222,6 @@ padding-bottom:13000px;
   margin-top: 0;
 }
 
-.access div {
-  width: 50%;
-  float: left;
-}
 
 ul {
   list-style-type: none;
@@ -266,7 +262,7 @@ footer {
  -webkit-overflow-scrolling: touch;
     }
 
-.gallery div div {
+.gallery div a {
     display:inline-block;
   margin: 5px;
   border: 10px solid #ffffff;
@@ -277,6 +273,11 @@ height: 260px;
 .gallery img{
     width 250px;
     height: 250px;
+}
+
+
+.sss{
+font-size:25px;
 }
 
 #lightbox .lb-container { padding: px; }
