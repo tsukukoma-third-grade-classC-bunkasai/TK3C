@@ -3,14 +3,31 @@ body {
   padding: 0;
   font-family: "YakuHanJPsLight", "proxima-nova", "a-otf-midashi-go-mb31-pr6n", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", sans-serif;
  font-weight: bold;
+ 
+animation-name: fadein;
+animation-duration: 2s;
+animation-iteration-count: 1;
+}
+@keyframes fadein {
+from {
+    opacity: 0;
+    transform: translateY(50px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+    }}
+
+
+cool{
+background:rgba(255,255,255,0.7)
 }
 
 h1 {
-  color: #000000;
   font-size: 100px;
  font-family:"游ゴシック体";
   text-align: center;
-  background-image: url(https://lh3.googleusercontent.com/cQMRmHXRoau8ueahaziajXw_ZWDw4tRDussQPmKsxLeukLoFxfyY0LCdw2P2fxtt6SQe5xzDPNAf8cUMGT_hIwY3T4uyiKn3EE9yrrhSD1FDutw8mfW6viix1aILXgE9Ad1qqmrP=w2030-h1352-no);
   height:500px;
   background-repeat: no-repeat;
   background-position:  center;
@@ -37,9 +54,17 @@ td{
 }
 
 
-header h1{
-    font-family:cursive ;
-    color:white
+.type-mask h1{
+  -webkit-animation: scrollmask 10s ease 0s infinite;
+  -webkit-background-clip: text;
+  background-image: url(https://lh3.googleusercontent.com/cQMRmHXRoau8ueahaziajXw_ZWDw4tRDussQPmKsxLeukLoFxfyY0LCdw2P2fxtt6SQe5xzDPNAf8cUMGT_hIwY3T4uyiKn3EE9yrrhSD1FDutw8mfW6viix1aILXgE9Ad1qqmrP=w2030-h1352-no);
+  color: transparent;
+  font-size: 150px;
+  font-family:cursive
+}
+@-webkit-keyframes scrollmask {
+  0% {background-position: 0 0;}
+  100% {background-position: 100% 0;}
 }
 
 nav {
@@ -168,7 +193,7 @@ padding-bottom:3350px;
   margin: 20px;
     float:left;
   box-shadow: 10px 10px 10px #a901db;
-  transform: rotate(0);
+  transform: perspective();
 }
 
 
@@ -278,6 +303,20 @@ height: 260px;
     width 250px;
     height: 250px;
 }
+
+.power{
+    padding:30px;
+     background-image: url(tegaki82mR2.jpg);
+}
+
+.power p{
+    font-size:20px;
+}
+
+.power div{
+background:rgba(255,255,255,0.7);
+}
+
 
 
 .sss{
