@@ -53,6 +53,9 @@ td{
    font-size: 30px;
 }
 
+.type-mask{
+background-image:url(https://lh3.googleusercontent.com/RNTEQusA469VLQoKZJi7N0mhzg7Sd6qjb6CVuISBSk5yotCWbBA_t-otMO0GLPq5TvsYWHmu-LmMWyCd63gRU572eHY3TxPUtDfoyTButE2Nb55fC4sNb4SFUcm1IBLb98GXj7TvclCk_MFecvS8i6ofiP3QLlL8luxTmMiw-HHJ0cU4O-vzY8wz4rNDGaTzoXcQtsXrVHht5gt7vmEpiqbPzaoSBXiOofZYwa7qD2uIv4M6_Ku80xRSe9gOa6NOA1R88sneVjIR2_W7d81FriLxWRURV-YJQqjprtGoTs8c6dezNTzLAhtHTUCKogqV1VluhFUVwWgkoujOGWIteUJ9mWRhZ-lzkR40PzpgY-cKmfeiUaYlgT8z2K5oAyhuFmZDpooD6aSo9gnNZm99aq2thxMMELnvvd1ymidlIkxwtfgigkaaouCZM3oNcJGLeSw-SNVrQw9dwXmGJybiW9hAyqzW6xL6MkRrP-UVGFpY7NUCDNC1MixATmmFX8wDBia0pJLKeTk-jnZR5-D1z0FBji2vp6JmRUzUPpfXmQj6dEZHgJSJjG-GZjthNnU93MWehFMT8hxQWsW6aVx2VwqyvUt3le0mHGW5zkPARfYRAWBYsQALYclnaFS_Z7PB1TxDeDfqI1J_kS27FTAaHA8oIBi-dEUl66C_YewRsJlhZW77M44loXwg5m1wEjC1oBGg4goCI59DzV2sz2jDLglOUJ1yxwycgqYsR3wbFCvGKA=w1842-h1228-no);
+}
 
 .type-mask h1{
   -webkit-animation: scrollmask 10s ease 0s infinite;
@@ -62,6 +65,7 @@ td{
   font-size: 150px;
   font-family:cursive
 }
+
 @-webkit-keyframes scrollmask {
   0% {background-position: 0 0;}
   100% {background-position: 100% 0;}
